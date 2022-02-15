@@ -35,3 +35,8 @@ Changes should be reflected despite their nature.
 # About ICSS
 
 https://github.com/webpack-contrib/css-loader#mode
+
+# Submitted Issues
+
+1. https://github.com/vuejs/vue-loader/issues/1931
+2. https://github.com/webpack-contrib/css-loader/issues/1421
