@@ -18,7 +18,7 @@ Changes should be reflected despite their nature.
 1. Clone the minimal reproducible example `git clone https://github.com/nskazki/mini-css-extract-plugin-seems-to-break-HMR`.
 1. Run `npm start` and open the demo in a browser. If the port is available, the address will be http://localhost:8080/.
 2. Apply a few changes to the `src/RootComponent.vue`. Changes applied to the templates or script sections won't be reflected. Changes applied to the style section will be reflected.
-3. Apply a few changes to the `src/ChildComponent.vue`. Changes applied to the template section will be partially reflected. Changes appllied to the script and templates will be fully reflected.
+3. Apply a few changes to the `src/ChildComponent.vue`. Changes applied to the template section will be partially reflected. Changes appllied to the script and style sections will be fully reflected.
 4. Comment out the `modules: { mode: 'icss' }` from the `webpack.config.js` and restart the dev server.
 5. Try applying changes again, they should be reflected despite their nature.
 6. Bring back the `icss` option but replace the `externalCSS` with `internalCSS`, so that CSS is included into the JS bundle, and restart the dev server.
